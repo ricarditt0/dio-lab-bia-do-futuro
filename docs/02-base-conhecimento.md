@@ -41,8 +41,7 @@ Os dados serão consultados comforme o necessario para atender os pedidos do usu
 ## Exemplo de Contexto Montado
 
 > Mostre um exemplo de como os dados são formatados para o agente.
-Como meu agente so vai precisar do arquivo de transaçoes não vou modificar os dados da tabela para possibilitar mais detalhes sobre os dados
-> 
+
 
 ```
 data,descricao,categoria,valor,tipo
