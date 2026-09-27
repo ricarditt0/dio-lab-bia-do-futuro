@@ -29,22 +29,22 @@ Crie testes simples para validar seu agente:
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
 - **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
-### Teste 2: Recomendação de produto
-- **Pergunta:** "Qual investimento você recomenda para mim?"
-- **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+### Teste 2: Consulto relativa a data
+- **Pergunta:** "Quando foi meu ultimo gasto?"
+- **Resposta esperada:** categoria e data e valor do ultimo gasto cadrastado
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
-- **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resposta esperada:** Agente da a previsão do tempo
+- **Resultado:** [ ] Correto  [X] Incorreto
 
 ### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto XYZ?"
-- **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Pergunta:** "Qual foi o meu gasto de dezembro"
+- **Resposta esperada:** Agente mostrou um valor proximo ao valor de outubro que esta nos dados mas alucinou os dados de dezembro
+- **Resultado:** [ ] Correto  [X] Incorreto
 
 ---
 
@@ -53,10 +53,10 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- consutar a base de dados e pesquizar as imformações corretas funcionou
 
 **O que pode melhorar:**
-- [Liste aqui]
+- infomaçoes inesistentes e escopo das perguntas precisa de melhora
 
 ---
 
